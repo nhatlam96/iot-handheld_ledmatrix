@@ -7,10 +7,10 @@
 ## Individual and group work packages
 
 - server:
-  - N: .env, Dockerfile, mosquitto.conf, mqtt_tictactoe.py
+  - N: .env (deleted secret), Dockerfile, mosquitto.conf, mqtt_tictactoe.py
   - P: mqtt_laby.py
 - client:
-  - N: .env, tictactoe.py
+  - N: .env (deleted secret), tictactoe.py
   - P: labyrinth.py, menu.py, common_functions.py
   - NP: mqtt_client.py, vibrator.py, gyroscope_handler.py
 
@@ -46,7 +46,7 @@
 - **Project Documentation and Presentation**
   - [x] (NP) Repo Cleanup
   - [x] (NP) Documentation
-  - [ ] (NP) Presentation
+  - [x] (NP) Presentation
 
 ## Hardware
 
