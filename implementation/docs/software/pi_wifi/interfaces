@@ -1,0 +1,9 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+# Include files from /etc/network/interfaces.d:
+source /etc/network/interfaces.d/*
+
+# Define the wlan0 interface
+auto wlan0
+iface wlan0 inet dhcp
+    wpa-ssid "N141"
+    wpa-psk "wieistdaspasswort?"
